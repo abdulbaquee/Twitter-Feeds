@@ -1,5 +1,6 @@
-# Custom twitter feed from a twitter handle for website or Facebook tab
+Custom twitter feed from a twitter handle for website or Facebook tab
 ===============
+
 If you are using Facebook for marketing and engaging your prospective and current clients it makes sense to introduce your FB fans to what may be happening on our Twitter profile. It allows our FB fans to see what other different types of conversations your business/brand is having on Twitter without them having to visit Twitter itself. They can retweet, follow you, and even favourite your tweets, right from the comfort of Facebook page itself.
 
 Plugin: Jquery progress indicator on page scroll
