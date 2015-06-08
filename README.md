@@ -1,8 +1,10 @@
 # Custom Twitter Feed
-```html
-<h3>Custom twitter feed from a twitter handle for website or Facebook tab</h3>
-<p>If you are using Facebook for marketing and engaging your prospective and current clients it makes sense to introduce your FB fans to what may be happening on our Twitter profile. It allows our FB fans to see what other different types of conversations your business/brand is having on Twitter without them having to visit Twitter itself. They can retweet, follow you, and even favourite your tweets, right from the comfort of Facebook page itself.</p>
-```
+===============
+
+Custom twitter feed from a twitter handle for website or Facebook tab
+===============
+
+If you are using Facebook for marketing and engaging your prospective and current clients it makes sense to introduce your FB fans to what may be happening on our Twitter profile. It allows our FB fans to see what other different types of conversations your business/brand is having on Twitter without them having to visit Twitter itself. They can retweet, follow you, and even favourite your tweets, right from the comfort of Facebook page itself.
 
 Plugin: Jquery progress indicator on page scroll
 Version: 1.1.0
@@ -37,9 +39,7 @@ $usertimeline = $connection->get('statuses/user_timeline', $options);
 
 Additional codes
 ===============
-```html
-Convert urls to <a> links
-```
+Convert urls to ```html <a>``` links
 
 ```<?php
 function linkify_tweet($tweet) {
