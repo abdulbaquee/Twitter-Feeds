@@ -1,9 +1,8 @@
 # Custom Twitter Feed
-
-Custom twitter feed from a twitter handle for website or Facebook tab
-===============
-
-If you are using Facebook for marketing and engaging your prospective and current clients it makes sense to introduce your FB fans to what may be happening on our Twitter profile. It allows our FB fans to see what other different types of conversations your business/brand is having on Twitter without them having to visit Twitter itself. They can retweet, follow you, and even favourite your tweets, right from the comfort of Facebook page itself.
+```html
+<h3>Custom twitter feed from a twitter handle for website or Facebook tab</h3>
+<p>If you are using Facebook for marketing and engaging your prospective and current clients it makes sense to introduce your FB fans to what may be happening on our Twitter profile. It allows our FB fans to see what other different types of conversations your business/brand is having on Twitter without them having to visit Twitter itself. They can retweet, follow you, and even favourite your tweets, right from the comfort of Facebook page itself.</p>
+```
 
 Plugin: Jquery progress indicator on page scroll
 Version: 1.1.0
@@ -24,10 +23,10 @@ This application requires rest api 1.1.
 
 ```<?php
 require_once('twitteroauth/twitteroauth.php');
-define('CONSUMER_KEY', 'FI45eaLp9AtGa4REQ9FXzWXnQ');
-define('CONSUMER_SECRET', 'fuu6PbUxEtOz7IZbUokZA9jj3Moc9cI7Kioe2NesHm1GZryy9P');
-define('OAUTH_TOKEN', '605479332-PloqR8ztKzwJQQMu6j0TJDgCaTZSntaaFKkBNSGM');
-define('OAUTH_TOKEN_SECRET', 'KJ9XPoHpA6XBxysLaMtBLHestLpzS9FtyPDD8Qj46KaDP');
+define('CONSUMER_KEY', 'Your consumer key');
+define('CONSUMER_SECRET', 'Your consumer secret');
+define('OAUTH_TOKEN', 'Your oauth token');
+define('OAUTH_TOKEN_SECRET', 'Your oauth token secret');
 $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET);
 $options = array(
     'screen_name' => 'iciciprumf',
@@ -38,7 +37,10 @@ $usertimeline = $connection->get('statuses/user_timeline', $options);
 
 Additional codes
 ===============
+```html
 Convert urls to <a> links
+```
+
 ```<?php
 function linkify_tweet($tweet) {
     //Convert urls to <a> links
