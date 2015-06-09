@@ -14,7 +14,7 @@ Demo: [Custom twitter feed Demo](http://www.socialscript.in/twitter-feed/)
 
 Tutorial Link
 ===============
-Tutorial: [All Social Script Custom twitter feed tutorial](http://www.socialscript.in/jquery-progress-indicator-on-page-scroll/)
+Tutorial: [All Social Script Custom twitter feed tutorial](http://www.socialscript.in/custom-twitter-feed-for-website/)
 
 Usage
 ===============
